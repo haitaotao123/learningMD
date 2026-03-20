@@ -32,3 +32,9 @@ git push origin master
 (注意：早期的仓库默认分支可能是 master，现在 GitHub 多为 main)
 ```
 
+查看目前配置了哪些远程服务器
+
+```
+git remote -v
+```
+
