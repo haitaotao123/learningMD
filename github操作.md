@@ -38,3 +38,18 @@ git push origin master
 git remote -v
 ```
 
+如果只是修改了文件，没有新建文件，可以用一行搞定add和commit
+
+```
+git commit -am "修改了笔记的内容"
+```
+
+有需要的自动化pushd的脚本
+
+```
+@echo off
+git add .
+git commit -m "auto update: %date% %time%"
+git push origin master
+```
+
